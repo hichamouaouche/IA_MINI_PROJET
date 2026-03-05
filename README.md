@@ -68,7 +68,7 @@ IA/
 │   ├── astar.py                     # UCS, Greedy, A*, Weighted A*
 │   ├── markov.py                    # Matrice P, distributions, absorption, Monte-Carlo
 │   ├── experiments.py               # 4 expériences reproductibles
-│   └── notebook_hicham_ouaouche.ipynb   # Notebook interactif complet
+├── notebook_hicham_ouaouche.ipynb       # Notebook interactif complet
 ├── requirements.txt                 # Dépendances Python
 └── figures/
     ├── exp1_grilles.png           # Exp.1 — Chemins planifiés (3 grilles × 3 algos)
@@ -287,7 +287,7 @@ print(f"P(GOAL) = {mc['reach_rate']:.3f} | Moy. étapes = {mc['avg_steps']:.1f}"
 ### Notebook interactif
 
 ```bash
-jupyter notebook src/notebook_hicham_ouaouche.ipynb
+jupyter notebook notebook_hicham_ouaouche.ipynb
 # ou ouvrir directement dans VS Code
 ```
 
